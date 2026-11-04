@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  <title>XAUUSD Master Hub - Hướng Dẫn Exness & Phương Pháp Giao Dịch</title>
+  <title>Exness A-Z: Hướng Dẫn Đăng Ký, Nạp Rút & Phương Pháp Giao Dịch XAUUSD</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;700;800;900&display=swap" rel="stylesheet">
   <style>
@@ -19,7 +19,7 @@
       window.open(EXNESS_REF_LINK, '_blank');
     }
 
-    // HÀM HIỂN THỊ HÌNH ẢNH MINH HỌA
+    // HÀM HIỂN THỊ HÌNH ẢNH MINH HỌA POPUP
     function showImageModal(title, imageUrl, description) {
       document.getElementById('modalTitle').innerText = title;
       document.getElementById('modalImage').src = imageUrl;
@@ -27,7 +27,7 @@
       document.getElementById('imageModal').classList.remove('hidden');
     }
 
-    // HÀM TẮT BẢNG ẢNH
+    // HÀM TẮT POPUP
     function closeModal() {
       document.getElementById('imageModal').classList.add('hidden');
     }
@@ -35,185 +35,263 @@
 </head>
 <body class="bg-slate-950 text-slate-100 min-h-screen p-3 space-y-3 max-w-md mx-auto">
 
-  <!-- HEADER -->
+  <!-- HEADER STICKY -->
   <div class="glass p-3 rounded-2xl border border-slate-800 flex justify-between items-center sticky top-0 z-50 shadow-xl">
     <div class="flex items-center space-x-2">
-      <span class="text-xl">🪙</span>
+      <span class="text-xl">🟡</span>
       <div>
-        <div class="font-black text-xs text-amber-400 tracking-wide">XAUUSD Pro Hub</div>
-        <div class="text-[9px] text-slate-400">Phương pháp & Tín hiệu Exness</div>
+        <div class="font-black text-xs text-amber-400 tracking-wide">Exness Trading Hub A-Z</div>
+        <div class="text-[9px] text-slate-400">Hướng dẫn Đăng ký & Nạp Rút chuẩn</div>
       </div>
     </div>
     <button onclick="goToExness()" class="bg-gradient-to-r from-amber-500 to-orange-500 hover:from-amber-600 hover:to-orange-600 text-white font-black text-[10px] px-3 py-2 rounded-xl transition shadow-lg active:scale-95 animate-pulse">
-      🟡 Mở Tài Khoản Exness →
+      🚀 Đăng Ký Ngay →
     </button>
   </div>
 
-  <!-- BANNER KÊU GỌI THAM GIA REF EXNESS -->
-  <div class="glass p-4 rounded-2xl border border-amber-500/40 space-y-2.5 shadow-lg bg-gradient-to-br from-slate-900 via-slate-900 to-amber-950/30">
+  <!-- BANNER TOP -->
+  <div class="glass p-4 rounded-2xl border border-amber-500/40 space-y-2 shadow-lg bg-gradient-to-br from-slate-900 via-slate-900 to-amber-950/30">
     <div class="flex items-center gap-2">
-      <span class="text-lg">⭐</span>
-      <div class="font-extrabold text-xs text-amber-300 uppercase">Đồng Hành Cùng Team XAUUSD Trên Exness</div>
+      <span class="text-lg">👑</span>
+      <div class="font-extrabold text-xs text-amber-300 uppercase">Cẩm Nang Hướng Dẫn Exness Từ A Đến Á</div>
     </div>
-    <p class="text-[11px] text-slate-300 leading-relaxed">
-      Nạp rút tiền siêu tốc 24/7, khớp lệnh khớp giá cực mượt. Đăng ký tài khoản Exness qua link giới thiệu dưới đây để nhận hỗ trợ phương pháp SMC và tín hiệu Vàng hàng ngày!
+    <p class="text-[10px] text-slate-300 leading-relaxed">
+      Tất cả hướng dẫn từng bước bằng hình ảnh: Tạo tài khoản, xác minh danh tính, nạp tiền ngân hàng và rút tiền về tài khoản trong 30 giây!
     </p>
     <button onclick="goToExness()" class="w-full py-2.5 bg-gradient-to-r from-amber-500 to-orange-500 text-slate-950 font-black text-xs rounded-xl shadow-md active:scale-95 transition">
-      🚀 Bấm Đăng Ký Tài Khoản Exness Ngay
+      🟡 Mở Trang Đăng Ký Exness Chính Thức
     </button>
   </div>
 
-  <!-- PHẦN 1: HƯỚNG DẪN ĐĂNG KÝ TÀI KHOẢN EXNESS CHI TIẾT -->
+  <!-- PHẦN 1: HƯỚNG DẪN ĐĂNG KÝ & XÁC MINH (CÓ ẢNH) -->
   <div class="glass p-4 rounded-2xl border border-sky-500/40 space-y-3">
-    <div class="font-extrabold text-xs text-sky-400 flex items-center gap-1.5 uppercase">
-      <span>📖</span> Quy Trình 4 Bước Đăng Ký Exness Chuẩn
+    <div class="font-extrabold text-xs text-sky-400 flex items-center justify-between uppercase border-b border-slate-800 pb-2">
+      <span class="flex items-center gap-1">📝 BƯỚC 1: ĐĂNG KÝ & XÁC MINH TÀI KHOẢN</span>
+      <span class="text-[9px] bg-sky-500/20 text-sky-300 px-2 py-0.5 rounded font-bold">Chuẩn 100%</span>
+    </div>
+
+    <div class="space-y-2.5 text-xs">
+      
+      <!-- BƯỚC 1.1 -->
+      <div class="bg-slate-900/90 p-3 rounded-xl border border-slate-800 space-y-1.5">
+        <div class="font-bold text-amber-400 flex items-center gap-1.5 text-[11px]">
+          <span class="w-4 h-4 bg-amber-500 text-slate-950 rounded-full text-center text-[10px] font-black">1</span>
+          Tạo tài khoản mới
+        </div>
+        <p class="text-[10px] text-slate-300">
+          Bấm vào nút đăng ký trên web $\rightarrow$ Chọn Quốc gia <b>Việt Nam</b> $\rightarrow$ Nhập <b>Email chính chủ</b> & Mật khẩu (gồm 8-15 ký tự, có chữ hoa, chữ thường và số).
+        </p>
+        <button onclick="showImageModal('Hướng Dẫn Điền Thông Tin Đăng Ký', 'https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?w=800', 'Giao diện điền Quốc gia Việt Nam, Email và Mật khẩu khởi tạo tài khoản Exness.')" 
+                class="w-full py-1.5 bg-slate-800 text-sky-400 text-[10px] font-bold rounded-lg border border-sky-500/30 flex items-center justify-center gap-1">
+          <span>🖼️ Xem ảnh minh họa Điền Form</span>
+        </button>
+      </div>
+
+      <!-- BƯỚC 1.2 -->
+      <div class="bg-slate-900/90 p-3 rounded-xl border border-slate-800 space-y-1.5">
+        <div class="font-bold text-amber-400 flex items-center gap-1.5 text-[11px]">
+          <span class="w-4 h-4 bg-amber-500 text-slate-950 rounded-full text-center text-[10px] font-black">2</span>
+          Xác thực Email & Số điện thoại
+        </div>
+        <p class="text-[10px] text-slate-300">
+          Hệ thống sẽ gửi mã xác nhận 6 chữ số về Email và tin nhắn SĐT. Nhập đúng mã OTP để kích hoạt lớp bảo mật tài khoản.
+        </p>
+      </div>
+
+      <!-- BƯỚC 1.3 -->
+      <div class="bg-slate-900/90 p-3 rounded-xl border border-slate-800 space-y-1.5">
+        <div class="font-bold text-amber-400 flex items-center gap-1.5 text-[11px]">
+          <span class="w-4 h-4 bg-amber-500 text-slate-950 rounded-full text-center text-[10px] font-black">3</span>
+          Xác minh danh tính (KYC) bằng CCCD
+        </div>
+        <p class="text-[10px] text-slate-300">
+          Dùng điện thoại chụp rõ 2 mặt <b>CCCD/CMND</b> (không mất góc, không chói ánh sáng). Exness tự động duyệt trong 3 - 5 phút.
+        </p>
+        <button onclick="showImageModal('Hướng Dẫn Tải Ảnh CCCD/KYC', 'https://images.unsplash.com/photo-1563986768609-322da13575f3?w=800', 'Hình minh họa tải ảnh mặt trước và mặt sau CCCD để xác minh tài khoản chính chủ.')" 
+                class="w-full py-1.5 bg-slate-800 text-sky-400 text-[10px] font-bold rounded-lg border border-sky-500/30 flex items-center justify-center gap-1">
+          <span>🖼️ Xem ảnh minh họa Tải CCCD</span>
+        </button>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- PHẦN 2: HƯỚNG DẪN NẠP TIỀN CHI TIẾT (CÓ ẢNH) -->
+  <div class="glass p-4 rounded-2xl border border-emerald-500/40 space-y-3">
+    <div class="font-extrabold text-xs text-emerald-400 flex items-center justify-between uppercase border-b border-slate-800 pb-2">
+      <span class="flex items-center gap-1">💵 BƯỚC 2: HƯỚNG DẪN NẠP TIỀN NGÂN HÀNG</span>
+      <span class="text-[9px] bg-emerald-500/20 text-emerald-300 px-2 py-0.5 rounded font-bold">Nạp Siêu Tốc</span>
     </div>
 
     <div class="space-y-2 text-xs">
-      <div class="flex gap-2.5 items-start bg-slate-900/80 p-2.5 rounded-xl border border-slate-800">
-        <span class="w-5 h-5 bg-sky-500/20 text-sky-400 rounded-full flex items-center justify-center font-black text-[10px] shrink-0 mt-0.5">1</span>
-        <div>
-          <div class="font-bold text-slate-200">Bấm Link Giới Thiệu & Chọn "Mở Tài Khoản"</div>
-          <div class="text-[10px] text-slate-400 mt-0.5">Click vào nút Đăng ký Exness. Chọn Quốc gia là <b>Việt Nam</b>, nhập Email và tạo Mật khẩu.</div>
-        </div>
+      <div class="bg-slate-900/90 p-3 rounded-xl border border-slate-800 space-y-1.5">
+        <div class="font-bold text-emerald-300 text-[11px]">1. Chọn Phương Thức Nạp Tiền</div>
+        <p class="text-[10px] text-slate-300">
+          Vào mục <b>Nạp tiền</b> $\rightarrow$ Chọn phương thức <b>"VietQR"</b> hoặc <b>"Internet Banking"</b> (Khuyên dùng VietQR để quét mã chuyển tiền nhanh nhất).
+        </p>
       </div>
 
-      <div class="flex gap-2.5 items-start bg-slate-900/80 p-2.5 rounded-xl border border-slate-800">
-        <span class="w-5 h-5 bg-sky-500/20 text-sky-400 rounded-full flex items-center justify-center font-black text-[10px] shrink-0 mt-0.5">2</span>
-        <div>
-          <div class="font-bold text-slate-200">Xác Nhận Email & Số Điện Thoại</div>
-          <div class="text-[10px] text-slate-400 mt-0.5">Nhập mã OTP gửi về Email và SĐT của bạn để bảo mật tài khoản cá nhân.</div>
-        </div>
+      <div class="bg-slate-900/90 p-3 rounded-xl border border-slate-800 space-y-1.5">
+        <div class="font-bold text-emerald-300 text-[11px]">2. Nhập Số Tiền Cần Nạp</div>
+        <p class="text-[10px] text-slate-300">
+          Nhập số tiền VNĐ muốn nạp (Ví dụ: 1.000.000đ hoặc 5.000.000đ). Hệ thống tự quy đổi ra USD theo tỷ giá thời điểm đó.
+        </p>
       </div>
 
-      <div class="flex gap-2.5 items-start bg-slate-900/80 p-2.5 rounded-xl border border-slate-800">
-        <span class="w-5 h-5 bg-sky-500/20 text-sky-400 rounded-full flex items-center justify-center font-black text-[10px] shrink-0 mt-0.5">3</span>
-        <div>
-          <div class="font-bold text-slate-200">Xác Minh Danh Tánh (KYC)</div>
-          <div class="text-[10px] text-slate-400 mt-0.5">Tải lên ảnh 2 mặt <b>CCCD/CMND</b> hoặc Bằng lái xe. Exness duyệt tự động chỉ trong 3 - 5 phút.</div>
-        </div>
-      </div>
-
-      <div class="flex gap-2.5 items-start bg-slate-900/80 p-2.5 rounded-xl border border-slate-800">
-        <span class="w-5 h-5 bg-sky-500/20 text-sky-400 rounded-full flex items-center justify-center font-black text-[10px] shrink-0 mt-0.5">4</span>
-        <div>
-          <div class="font-bold text-slate-200">Tạo Tài Khoản MT5/MT4 & Nạp Tiền</div>
-          <div class="text-[10px] text-slate-400 mt-0.5">Tạo tài khoản loại <b>Standard</b> hoặc <b>Pro</b>, nạp tiền qua Internet Banking và bắt đầu giao dịch!</div>
-        </div>
+      <div class="bg-slate-900/90 p-3 rounded-xl border border-slate-800 space-y-1.5">
+        <div class="font-bold text-emerald-300 text-[11px]">3. Quét Mã Chuyển Tiền VietQR</div>
+        <p class="text-[10px] text-slate-300">
+          Mở app Ngân hàng trên điện thoại (MBBank, Vietcombank, Techcombank...) quét mã QR trên màn hình. Tiền vào tài khoản MT5 sau vài giây!
+        </p>
+        <button onclick="showImageModal('Hướng Dẫn Nạp Tiền VietQR', 'https://images.unsplash.com/photo-1559526324-4b87b5e36e44?w=800', 'Màn hình hiển thị mã QR Code chuyển tiền ngân hàng tự động trên sàn Exness.')" 
+                class="w-full py-1.5 bg-slate-800 text-emerald-400 text-[10px] font-bold rounded-lg border border-emerald-500/30 flex items-center justify-center gap-1">
+          <span>🖼️ Xem ảnh minh họa Giao Diện Nạp Tiền</span>
+        </button>
       </div>
     </div>
-
-    <button onclick="goToExness()" class="w-full py-2 bg-sky-500/20 hover:bg-sky-500/30 text-sky-300 font-bold text-[11px] rounded-xl border border-sky-500/40 transition active:scale-95">
-      👉 Mở Trang Đăng Ký Exness Ngay
-    </button>
   </div>
 
-  <!-- PHẦN 2: CÁC PHƯƠNG PHÁP GIAO DỊCH XAUUSD (KÈM NÚT XEM ẢNH) -->
-  <div class="space-y-2.5">
-    <div class="font-extrabold text-xs text-emerald-400 uppercase tracking-wider px-1 flex items-center gap-1.5">
-      <span>📊</span> Các Phương Pháp Giao Dịch XAUUSD (Xem Hình Ảnh)
+  <!-- PHẦN 3: HƯỚNG DẪN RÚT TIỀN TỰ ĐỘNG (CÓ ẢNH) -->
+  <div class="glass p-4 rounded-2xl border border-purple-500/40 space-y-3">
+    <div class="font-extrabold text-xs text-purple-400 flex items-center justify-between uppercase border-b border-slate-800 pb-2">
+      <span class="flex items-center gap-1">🏧 BƯỚC 3: HƯỚNG DẪN RÚT TIỀN VỀ ATM</span>
+      <span class="text-[9px] bg-purple-500/20 text-purple-300 px-2 py-0.5 rounded font-bold">Rút 24/7 Tức Thì</span>
     </div>
 
-    <!-- PHƯƠNG PHÁP 1 -->
+    <div class="space-y-2 text-xs">
+      <div class="bg-slate-900/90 p-3 rounded-xl border border-slate-800 space-y-1.5">
+        <div class="font-bold text-purple-300 text-[11px]">1. Thao Tác Đặt Lệnh Rút</div>
+        <p class="text-[10px] text-slate-300">
+          Vào mục <b>Rút tiền</b> $\rightarrow$ Chọn <b>Internet Banking / Ngân hàng nội địa</b> $\rightarrow$ Nhập số tiền USD cần rút.
+        </p>
+      </div>
+
+      <div class="bg-slate-900/90 p-3 rounded-xl border border-slate-800 space-y-1.5">
+        <div class="font-bold text-purple-300 text-[11px]">2. Điền Số Tài Khoản Ngân Hàng</div>
+        <p class="text-[10px] text-slate-300">
+          Chọn tên Ngân hàng cá nhân của bạn, điền <b>Số tài khoản</b> và tên Chủ tài khoản (phải trùng tên đăng ký KYC).
+        </p>
+      </div>
+
+      <div class="bg-slate-900/90 p-3 rounded-xl border border-slate-800 space-y-1.5">
+        <div class="font-bold text-purple-300 text-[11px]">3. Nhập Mã OTP Rút Tiền</div>
+        <p class="text-[10px] text-slate-300">
+          Nhập mã OTP xác nhận gửi về SĐT. Tiền sẽ chảy thẳng về tài khoản ngân hàng của bạn chỉ từ 1 - 3 phút!
+        </p>
+        <button onclick="showImageModal('Hướng Dẫn Rút Tiền Về Ngân Hàng', 'https://images.unsplash.com/photo-1563986768609-322da13575f3?w=800', 'Màn hình điền thông tin số tài khoản ngân hàng cá nhân để nhận tiền rút từ Exness.')" 
+                class="w-full py-1.5 bg-slate-800 text-purple-400 text-[10px] font-bold rounded-lg border border-purple-500/30 flex items-center justify-center gap-1">
+          <span>🖼️ Xem ảnh minh họa Form Rút Tiền</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- PHẦN 4: BỘ PHƯƠNG PHÁP GIAO DỊCH XAUUSD (CÓ ẢNH BIỂU ĐỒ) -->
+  <div class="space-y-2.5 pt-1">
+    <div class="font-extrabold text-xs text-amber-400 uppercase tracking-wider px-1 flex items-center gap-1.5">
+      <span>📊</span> PHƯƠNG PHÁP GIAO DỊCH VÀNG (XAUUSD) thực chiến
+    </div>
+
+    <!-- PHƯƠNG PHÁP 1: SMC -->
     <div class="glass p-3.5 rounded-2xl border border-emerald-500/40 space-y-2.5">
       <div class="flex justify-between items-start">
         <div>
           <span class="text-[9px] bg-emerald-500/20 text-emerald-300 font-extrabold px-2 py-0.5 rounded-md">Smart Money Concepts</span>
-          <div class="font-extrabold text-xs text-white mt-1">1. Giao Dịch Theo Cấu Trúc SMC (Order Block & FVG)</div>
+          <div class="font-extrabold text-xs text-white mt-1">1. Giao Dịch Cấu Trúc SMC (Order Block & FVG)</div>
         </div>
         <span class="text-xl">🏛️</span>
       </div>
       <p class="text-[10px] text-slate-300 leading-relaxed">
-        Sử dụng Vùng Mất Cân Bằng (FVG) và Khối Lệnh (Order Block) để tìm điểm vào lệnh theo vết chân của dòng tiền lớn trên biểu đồ XAUUSD.
+        Xác định vùng Order Block (OB) và Vùng Mất Cân Bằng (FVG) để đặt lệnh Buy/Sell đón nhịp sóng theo tay to cá mập.
       </p>
-      <button onclick="showImageModal('Mô Hình SMC & Order Block', 'https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800', 'Hình minh họa chi tiết cách xác định vùng Order Block và FVG trên biểu đồ Vàng M15/H1 để canh điểm vào lệnh tối ưu.')" 
+      <button onclick="showImageModal('Sơ Đồ Cấu Trúc SMC & Order Block', 'https://images.unsplash.com/photo-1642543492481-44e81e3914a7?w=800', 'Biểu đồ nến thể hiện vùng Order Block (OB) và Vùng mất cân bằng giá (FVG) - Điểm vào lệnh cực đẹp khi giá quay lại retest.')" 
               class="w-full py-2 bg-slate-900 hover:bg-slate-800 border border-emerald-500/40 text-emerald-400 font-bold text-[11px] rounded-xl flex items-center justify-center gap-1.5 transition active:scale-95 shadow">
-        <span>🖼️ Xem Hình Ảnh Minh Họa SMC</span>
+        <span>🖼️ Xem Biểu Đồ Minh Họa SMC</span>
       </button>
     </div>
 
-    <!-- PHƯƠNG PHÁP 2 -->
+    <!-- PHƯƠNG PHÁP 2: LIQUIDITY SWEEP -->
     <div class="glass p-3.5 rounded-2xl border border-sky-500/40 space-y-2.5">
       <div class="flex justify-between items-start">
         <div>
           <span class="text-[9px] bg-sky-500/20 text-sky-300 font-extrabold px-2 py-0.5 rounded-md">Liquidity Sweep</span>
-          <div class="font-extrabold text-xs text-white mt-1">2. Quét Thanh Khoản (Liquidity Sweep & Grab)</div>
+          <div class="font-extrabold text-xs text-white mt-1">2. Quét Thanh Khoản Đỉnh/Đáy Cũ</div>
         </div>
         <span class="text-xl">⚡</span>
       </div>
       <p class="text-[10px] text-slate-300 leading-relaxed">
-        Vàng thường có những cú quét đỉnh/đáy cũ trước khi đảo chiều mạnh. Bắt điểm đảo chiều ngay sau khi thị trường hoàn tất quét thanh khoản.
+        Nhận biết những cây nến đâm bóng dài qua vùng đỉnh/đáy cũ để dụ đám đông rồi rút chân mạnh mẽ $\rightarrow$ Vào lệnh đảo chiều lập tức!
       </p>
-      <button onclick="showImageModal('Mô Hình Quét Thanh Khoản (Liquidity Sweep)', 'https://images.unsplash.com/photo-1642543492481-44e81e3914a7?w=800', 'Minh họa cách nhận biết các vùng Stop Loss bị quét qua (Sweep) trước khi Vàng đổi hướng đi theo cấu trúc mới.')" 
+      <button onclick="showImageModal('Biểu Đồ Nến Quét Thanh Khoản (Sweep)', 'https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800', 'Hình ảnh mẫu nến quét bóng dài (Liquidity Sweep) rút chân mạnh mẽ qua vùng đỉnh/đáy cũ trước khi giá chính thức đảo chiều.')" 
               class="w-full py-2 bg-slate-900 hover:bg-slate-800 border border-sky-500/40 text-sky-400 font-bold text-[11px] rounded-xl flex items-center justify-center gap-1.5 transition active:scale-95 shadow">
-        <span>🖼️ Xem Hình Ảnh Quét Thanh Khoản</span>
+        <span>🖼️ Xem Biểu Đồ Quét Thanh Khoản</span>
       </button>
     </div>
 
-    <!-- PHƯƠNG PHÁP 3 -->
+    <!-- PHƯƠNG PHÁP 3: BREAKOUT RETEST -->
     <div class="glass p-3.5 rounded-2xl border border-indigo-500/40 space-y-2.5">
       <div class="flex justify-between items-start">
         <div>
           <span class="text-[9px] bg-indigo-500/20 text-indigo-300 font-extrabold px-2 py-0.5 rounded-md">Breakout & Retest</span>
-          <div class="font-extrabold text-xs text-white mt-1">3. Phá Vỡ Vùng Giá & Kiểm Tra Lại (Retest)</div>
+          <div class="font-extrabold text-xs text-white mt-1">3. Phá Vỡ & Kiểm Tra Lại Vùng Cản</div>
         </div>
         <span class="text-xl">📈</span>
       </div>
       <p class="text-[10px] text-slate-300 leading-relaxed">
-        Chờ Vàng phá vỡ (Breakout) các mốc cản quan trọng trong phiên Mỹ, sau đó kiên nhẫn chờ giá test lại vùng cản cũ để vào lệnh an toàn.
+        Chờ Vàng phá vỡ mốc Kháng cự/Hỗ trợ quan trọng, kiên nhẫn đợi nhịp quay lại kiểm tra (Retest) để vào lệnh đu theo xu hướng chính.
       </p>
-      <button onclick="showImageModal('Mô Hình Breakout & Retest', 'https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?w=800', 'Sơ đồ trực quan thể hiện điểm giá phá vỡ kháng cự và nhịp quay trở lại kiểm tra (Retest) trước khi bứt phá tiếp.')" 
+      <button onclick="showImageModal('Mô Hình Breakout & Retest Chuẩn', 'https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?w=800', 'Biểu đồ thể hiện nến cường lực phá vỡ vùng Kháng cự/Hỗ trợ (Breakout) và nhịp nến nhẹ nhàng quay lại chạm cản (Retest) để xác nhận xu hướng.')" 
               class="w-full py-2 bg-slate-900 hover:bg-slate-800 border border-indigo-500/40 text-indigo-400 font-bold text-[11px] rounded-xl flex items-center justify-center gap-1.5 transition active:scale-95 shadow">
-        <span>🖼️ Xem Hình Ảnh Breakout & Retest</span>
+        <span>🖼️ Xem Biểu Đồ Breakout & Retest</span>
       </button>
     </div>
 
-    <!-- PHƯƠNG PHÁP 4 -->
+    <!-- PHƯƠNG PHÁP 4: TIMING KHUNG GIỜ -->
     <div class="glass p-3.5 rounded-2xl border border-amber-500/40 space-y-2.5">
       <div class="flex justify-between items-start">
         <div>
-          <span class="text-[9px] bg-amber-500/20 text-amber-300 font-extrabold px-2 py-0.5 rounded-md">Cycle & Timing</span>
-          <div class="font-extrabold text-xs text-white mt-1">4. Giao Dịch Theo Chu Kỳ & Khung Giờ Biến Động</div>
+          <span class="text-[9px] bg-amber-500/20 text-amber-300 font-extrabold px-2 py-0.5 rounded-md">Timing & Khung Giờ</span>
+          <div class="font-extrabold text-xs text-white mt-1">4. Khung Giờ Vàng Biến Động Thực Chiến</div>
         </div>
         <span class="text-xl">🕒</span>
       </div>
       <p class="text-[10px] text-slate-300 leading-relaxed">
-        Nắm bắt chính xác các mốc thời gian Vàng biến động mạnh nhất trong ngày (Mở cửa phiên Âu 14:00 và phiên Mỹ 19:30).
+        Tập trung giao dịch vào 2 phiên sóng chạy mạnh nhất trong ngày: <b>Phiên Âu (14:00 - 17:00)</b> và <b>Phiên Mỹ (19:30 - 22:30)</b>.
       </p>
-      <button onclick="showImageModal('Bảng Khung Giờ & Chu Kỳ Vàng', 'https://images.unsplash.com/photo-1506784983877-45594efa4cbe?w=800', 'Bảng phân bổ các khung giờ giao dịch hiệu quả trong ngày, giúp trader tránh được các khung giờ sideway thấp điểm.')" 
+      <button onclick="showImageModal('Lịch Khung Giờ Biến Động XAUUSD', 'https://images.unsplash.com/photo-1506784983877-45594efa4cbe?w=800', 'Sơ đồ phân bổ khung giờ biến động mạnh: Phiên Á (tích lũy), Phiên Âu (tạo hướng đi), Phiên Mỹ (bùng nổ volume giao dịch).')" 
               class="w-full py-2 bg-slate-900 hover:bg-slate-800 border border-amber-500/40 text-amber-400 font-bold text-[11px] rounded-xl flex items-center justify-center gap-1.5 transition active:scale-95 shadow">
-        <span>🖼️ Xem Bảng Khung Giờ & Chu Kỳ</span>
+        <span>🖼️ Xem Bảng Giờ Biến Động</span>
       </button>
     </div>
 
   </div>
 
-  <!-- BẢNG POP-UP HIỂN THỊ HÌNH ẢNH (ẨN MẶC ĐỊNH) -->
+  <!-- BẢNG POP-UP HIỂN THỊ HÌNH ẢNH MINH HỌA -->
   <div id="imageModal" class="hidden fixed inset-0 z-50 bg-slate-950/90 backdrop-blur-md flex items-center justify-center p-4">
     <div class="glass border border-slate-700 w-full max-w-sm rounded-2xl p-4 space-y-3 relative shadow-2xl">
       <div class="flex justify-between items-center border-b border-slate-800 pb-2">
         <div id="modalTitle" class="font-black text-xs text-amber-400">Tiêu đề hình ảnh</div>
         <button onclick="closeModal()" class="w-7 h-7 bg-slate-800 text-slate-300 rounded-full font-black text-xs flex items-center justify-center hover:bg-slate-700">✕</button>
       </div>
-      <div>
-        <img id="modalImage" src="" alt="Minh hoạ" class="w-full h-48 object-cover rounded-xl border border-slate-800">
+      <div class="overflow-hidden rounded-xl border border-slate-800 bg-slate-900">
+        <img id="modalImage" src="" alt="Minh hoạ" class="w-full h-52 object-cover transition-transform duration-300 hover:scale-105">
       </div>
       <p id="modalDesc" class="text-[11px] text-slate-300 leading-relaxed">Mô tả chi tiết nội dung hình ảnh...</p>
-      <button onclick="closeModal()" class="w-full py-2 bg-slate-800 text-slate-200 font-bold text-xs rounded-xl">Đóng Lại</button>
+      <button onclick="closeModal()" class="w-full py-2 bg-slate-800 hover:bg-slate-700 text-slate-200 font-bold text-xs rounded-xl">Đóng Bảng Minh Họa</button>
     </div>
   </div>
 
-  <!-- FOOTER CTA -->
+  <!-- FOOTER NÚT BẤM FINAL -->
   <div class="glass p-4 rounded-2xl border border-amber-500/50 text-center space-y-2.5 mt-4">
-    <div class="font-extrabold text-xs text-amber-400">Tạo tài khoản Exness ngay hôm nay</div>
-    <p class="text-[10px] text-slate-300">Nhận quyền lợi tham gia nhóm VIP phân tích XAUUSD và chia sẻ tín hiệu miễn phí.</p>
+    <div class="font-extrabold text-xs text-amber-400">Đã thông suốt quy trình A-Z?</div>
+    <p class="text-[10px] text-slate-300">Bấm nút bên dưới để mở tài khoản Exness qua link giới thiệu và nhận hỗ trợ tín hiệu hàng ngày!</p>
     <button onclick="goToExness()" class="w-full py-3 bg-gradient-to-r from-amber-500 to-orange-500 text-slate-950 font-black text-xs rounded-xl shadow-lg active:scale-95 transition">
-      🟡 Mở Tài Khoản Exness Qua Link Ref
+      🚀 BẮT ĐẦU ĐĂNG KÝ EXNESS NGAY
     </button>
   </div>
 
   <footer class="text-center text-[10px] text-slate-600 py-2">
-    © 2026 XAUUSD Exness Trading Hub. All rights reserved.
+    © 2026 Exness Ultimate Trading Hub. All rights reserved.
   </footer>
 
 </body>
